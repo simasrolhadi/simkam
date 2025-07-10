@@ -1,0 +1,12 @@
+# Handle line endings untuk berbagai tipe file
+*.java text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# File biner tidak perlu diubah
+*.png binary
+*.jar binary
+*.class binary
